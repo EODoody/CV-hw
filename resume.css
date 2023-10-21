@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+body {
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+th, td {
+  padding: 10px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.skills-description {
+  margin-top: 10px;
+}
